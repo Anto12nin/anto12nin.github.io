@@ -7,15 +7,18 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="page1.html">Accueil</a></li>
-            <li><a href="page2.html">À propos</a></li>
-            <li><a href="page3.html">Services</a></li>
-            <li><a href="page4.html">Contact</a></li>
-            <li><a href="page5.html">Blog</a></li>
-        </ul>
-    </nav>
+    <div class="menu">
+        <nav clas="menu">
+            <ul>
+                <li><a href="index.html" target="content-frame">Accueil</a></li>
+                <li><a href="about.html" target="content-frame">À propos</a></li>
+                <li><a href="services.html" target="content-frame">Services</a></li>
+                <li><a href="contact.html" target="content-frame">Contact</a></li>
+                <li><a href="blog.html" target="content-frame">Blog</a></li>
+            </ul>
+        </nav>
+        <iframe name="content-frame" src="Page1.html" class="content-frame"></iframe>
+    </div>
     <div class="container">
         <h1>Bienvenue sur notre site</h1>
         <p>Ceci est la page d'accueil.</p>
