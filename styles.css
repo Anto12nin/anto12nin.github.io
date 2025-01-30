@@ -31,7 +31,7 @@ body {
 
 /* # Style pour chaque élément du menu */
 .menu ul li {
-    border-bottom: 1px solid #444; /* # Ligne séparatrice entre les éléments */
+    border-bottom: 1px solid #f30808; /* # Ligne séparatrice entre les éléments */
 }
 
 /* # Style des liens dans le menu */
@@ -44,7 +44,7 @@ body {
 
 /* # Effet au survol */
 .menu ul li a:hover {
-    background-color: #575757; /* # Change la couleur de fond au survol */
+    background-color: #f30808; /* # Change la couleur de fond au survol */
 }
 
 /* # Styles pour le contenu principal */
