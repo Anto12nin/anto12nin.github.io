@@ -1,7 +1,7 @@
 /* # Styles généraux pour tout le site */
 body {
     margin: 0; /* # Supprime les marges par défaut */
-    font-family: Arial, sans-serif; /* # Police d'écriture */
+    font-family: Arial, Arial; /* # Police d'écriture */
     display: flex; /* # Permet de structurer le layout en flexbox */
     flex-direction: line; /* # Aligne les éléments en colonne (menu + contenu) */
     height: 100vh; /* # Hauteur de la page à 100% de l'écran */
@@ -16,7 +16,7 @@ body {
 /* # Styles pour le menu */
 .menu {
     background-color: #7608f3; /* # Fond du menu en gris foncé */
-    color: rgb(249, 48, 3); /* # Texte en blanc */
+    color: #fff; /* # Texte en blanc */
     width: 200px; /* # Largeur fixe pour le menu */
     min-width: 150px; /* # Largeur minimale */
     padding: 0; /* # Pas de marges intérieures */
