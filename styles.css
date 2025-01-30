@@ -53,7 +53,7 @@ body {
     display: flex; /* # Centrage du contenu dans l'iframe */
     justify-content: center;
     align-items: center;
-    background-color: #f4f4f4; /* # Couleur de fond gris clair */
+    background-color: #c5a0ee; /* # Couleur de fond gris clair */
     overflow: hidden; /* # Empêche les débordements */
 }
 
