@@ -31,7 +31,7 @@ body {
 
 /* # Style pour chaque élément du menu */
 .menu ul li {
-    border-bottom: 1px solid #7608f3ca; /* # Ligne séparatrice entre les éléments */
+    border-bottom: 1px solid #3b0479; /* # Ligne séparatrice entre les éléments */
 }
 
 /* # Style des liens dans le menu */
