@@ -8,5 +8,27 @@
 <body>
     <h1>Photo3D</h1>
     <h2>Bienvenue</h2>
+    <div id="pano" class="panorama-container"></div>
+    <script src="marzipano_project/marzipano.js"></script>
+    <script>
+        fetch("marzipano_project/data.json")
+            .then(response => response.json())
+            .then(data => {
+                var viewer = new Marzipano.Viewer(document.getElementById('pano'));
+                var source = Marzipano.ImageUrlSource.fromString("marzipano_project/" + data.scenes[0].levels[0].tileUrl);
+                var geometry = new Marzipano.EquirectGeometry([{ width: 4000 }]);
+                var limiter = Marzipano.RectilinearView.limit.traditional(1024, 100 * Math.PI / 180);
+                var view = new Marzipano.RectilinearView(null, limiter);
+
+                var scene = viewer.createScene({
+                    source: source,
+                    geometry: geometry,
+                    view: view
+                });
+
+                scene.switchTo();
+            })
+            .catch(error => console.error("Erreur de chargement du panorama :", error));
+    </script>
 </body>
 </html>
