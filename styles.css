@@ -15,7 +15,7 @@ body {
 
 /* # Styles pour le menu */
 .menu {
-    background-color: #7608f3; /* # Fond du menu en gris foncé */
+    background-color: #f32f08; /* # Fond du menu en gris foncé */
     color: #fff; /* # Texte en blanc */
     width: 200px; /* # Largeur fixe pour le menu */
     min-width: 150px; /* # Largeur minimale */
@@ -31,7 +31,7 @@ body {
 
 /* # Style pour chaque élément du menu */
 .menu ul li {
-    border-bottom: 1px solid #3b0479; /* # Ligne séparatrice entre les éléments */
+    border-bottom: 1px solid #701503; /* # Ligne séparatrice entre les éléments */
 }
 
 /* # Style des liens dans le menu */
@@ -44,7 +44,7 @@ body {
 
 /* # Effet au survol */
 .menu ul li a:hover {
-    background-color: #9f4aff; /* # Change la couleur de fond au survol */
+    background-color: #f18c78; /* # Change la couleur de fond au survol */
 }
 
 /* # Styles pour le contenu principal */
@@ -53,7 +53,7 @@ body {
     display: flex; /* # Centrage du contenu dans l'iframe */
     justify-content: center;
     align-items: center;
-    background-color: #c5a0ee; /* # Couleur de fond gris clair */
+    background-color: #f18c78; /* # Couleur de fond gris clair */
     overflow: hidden; /* # Empêche les débordements */
 }
 
