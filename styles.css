@@ -15,7 +15,7 @@ body {
 
 /* # Styles pour le menu */
 .menu {
-    background-color: #f30808; /* # Fond du menu en gris foncé */
+    background-color: #7608f3; /* # Fond du menu en gris foncé */
     color: rgb(249, 48, 3); /* # Texte en blanc */
     width: 200px; /* # Largeur fixe pour le menu */
     min-width: 150px; /* # Largeur minimale */
@@ -31,7 +31,7 @@ body {
 
 /* # Style pour chaque élément du menu */
 .menu ul li {
-    border-bottom: 1px solid #f30808; /* # Ligne séparatrice entre les éléments */
+    border-bottom: 1px solid #7608f3; /* # Ligne séparatrice entre les éléments */
 }
 
 /* # Style des liens dans le menu */
