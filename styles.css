@@ -44,7 +44,7 @@ body {
 
 /* # Effet au survol */
 .menu ul li a:hover {
-    background-color: #f30808; /* # Change la couleur de fond au survol */
+    background-color: #9f4aff; /* # Change la couleur de fond au survol */
 }
 
 /* # Styles pour le contenu principal */
