@@ -3,7 +3,7 @@ body {
     margin: 0; /* # Supprime les marges par défaut */
     font-family: Arial, sans-serif; /* # Police d'écriture */
     display: flex; /* # Permet de structurer le layout en flexbox */
-    flex-direction: column; /* # Aligne les éléments en colonne (menu + contenu) */
+    flex-direction: line; /* # Aligne les éléments en colonne (menu + contenu) */
     height: 100vh; /* # Hauteur de la page à 100% de l'écran */
 }
 
@@ -31,7 +31,7 @@ body {
 
 /* # Style pour chaque élément du menu */
 .menu ul li {
-    border-bottom: 1px solid #7608f3; /* # Ligne séparatrice entre les éléments */
+    border-bottom: 1px solid #7608f3ca; /* # Ligne séparatrice entre les éléments */
 }
 
 /* # Style des liens dans le menu */
