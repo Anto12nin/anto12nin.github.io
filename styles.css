@@ -15,8 +15,8 @@ body {
 
 /* # Styles pour le menu */
 .menu {
-    background-color: #333; /* # Fond du menu en gris foncé */
-    color: rgb(202, 227, 146); /* # Texte en blanc */
+    background-color: #f30808; /* # Fond du menu en gris foncé */
+    color: rgb(249, 48, 3); /* # Texte en blanc */
     width: 200px; /* # Largeur fixe pour le menu */
     min-width: 150px; /* # Largeur minimale */
     padding: 0; /* # Pas de marges intérieures */
