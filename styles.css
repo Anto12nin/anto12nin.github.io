@@ -32,7 +32,7 @@ main {
 }
 iframe {
     width: 80%;
-    height: 500px;
+    height: 1000px;
     border: 1px solid #ccc;
 }
 @media (max-width: 768px) {
