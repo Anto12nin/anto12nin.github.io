@@ -4,10 +4,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #EEE6D8;
 }
 nav {
-    background-color: #333;
-    color: antiquewhite;
+    background-color: #93441A;
+    color: #EEE6D8;
     padding: 0;
     width: 100%;
 }
@@ -23,13 +24,13 @@ nav ul li {
 }
 nav ul li a {
     display: block;
-    color: white;
+    color: #EEE6D8;
     text-decoration: none;
     font-weight: bold;
     padding: 15px;
 }
 nav ul li a:hover {
-    background-color: #666;
+    background-color: #B67332;
 }
 main {
     flex: 1;
@@ -41,7 +42,7 @@ main {
 iframe {
     width: 80%;
     height: 1000px;
-    border: 1px solid #ccc;
+    border: 1px solid #DAAB3A;
 }
 @media (max-width: 768px) {
     nav {
