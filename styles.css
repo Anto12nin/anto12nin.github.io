@@ -1,49 +1,59 @@
+/* Styles pour tout le site */
 body {
-    display: flex;
-    flex-direction: column;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #EEE6D8;
+    display: flex; /* Permet de structurer le layout en flexbox */
+    flex-direction: column; /* aligne les éléments en colonne */
+    font-family: Arial, sans-serif; /* Police d'écriture */
+    margin: 0; /* Supprime les marges par défaut */
+    padding: 0; /* Pas de marges intérieures */
+    background-color: #EEE6D8; /* Couleur du fond */
 }
+/* Styles pour le menu */
 nav {
     background-color: #93441A;
     color: #EEE6D8;
-    padding: 0;
+    padding: 0; /* Pas de marges intérieures */
     width: 100%;
 }
+/* Liste des éléments du menu */
 nav ul {
     list-style-type: none;
-    padding: 0;
-    margin: 0;
+    padding: 0; /* Pas de marges intérieures */
+    margin: 0; /* Supprime les marges par défaut */
     display: flex;
 }
+/* Style pour chaques éléments du menu */
 nav ul li {
-    margin: 0;
-    border-right: 1px solid #DAAB3A;
+    margin: 0; /* Supprime les marges par défaut */
+    border-right: 1px solid #DAAB3A; /* Couleur des lignes séparatrices */
 }
+/* Style des liens dans le menu */
 nav ul li a {
     display: block;
     color: #EEE6D8;
     text-decoration: none;
     font-weight: bold;
-    padding: 15px;
+    padding: 15px; /* Marges intérieures de 15 pixels */
 }
+/* Effet au survol */
 nav ul li a:hover {
     background-color: #B67332;
 }
+/* Styles pour le contenu principal */
 main {
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 20px; /* Marges de 20 pixels */
 }
+
+/* Styles pour les iframes */
 iframe {
     width: 80%;
     height: 1000px;
-    border: 1px solid #DAAB3A;
+    border: 1px solid #DAAB3A; /* Couleur des bords de l'iframe */
 }
+/* Styles responsive pour les téléphones */
 @media (max-width: 768px) {
     nav {
         width: 100%;
