@@ -10,7 +10,7 @@ body {
 /* Styles pour le menu */
 nav {
     background-color: #93441A;
-    color: #EEE6D8;
+    color: #EEE6D8; /* couleur de l'écriture */
     padding: 0; /* Pas de marges intérieures */
     width: 100%;
 }
@@ -31,12 +31,12 @@ nav ul li a {
     display: block;
     color: #EEE6D8;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: bold; /* met le texte en gras */
     padding: 15px; /* Marges intérieures de 15 pixels */
 }
 /* Effet au survol */
 nav ul li a:hover {
-    background-color: #B67332;
+    background-color: #B67332; /* change la couleur du fond quand on survol */
 }
 /* Styles pour le contenu principal */
 main {
@@ -49,8 +49,8 @@ main {
 
 /* Styles pour les iframes */
 iframe {
-    width: 80%;
-    height: 1000px;
+    width: 80%; /* largeur de l'iframe */
+    height: 1000px; /* Hauteur de l'iframe */
     border: 1px solid #DAAB3A; /* Couleur des bords de l'iframe */
 }
 /* Styles responsive pour les téléphones */
